@@ -1,4 +1,4 @@
-<img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-business-communication-concept_52683-78091.jpg?t=st=1686220171~exp=1686220771~hmac=a80dd3e28989606bcd7b01a4178665b32f5ae0f47a73714dbeaaa19670c5ffa6" alt="<a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-business-communication-concept_20904386.htm">Image by pikisuperstar</a> on Freepik" width="whatever" height="whatever">
+<img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-business-communication-concept_52683-78091.jpg?t=st=1686220171~exp=1686220771~hmac=a80dd3e28989606bcd7b01a4178665b32f5ae0f47a73714dbeaaa19670c5ffa6"  width="whatever" height="whatever">
 
 
 # Task Manager 📋
@@ -41,3 +41,5 @@ Encapsulation is demonstrated in the `Project` class. It encapsulates the tasks 
 ## Contributing 🤝
 
 Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
+
+alt="<a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-business-communication-concept_20904386.htm">Image by pikisuperstar</a> on Freepik"
