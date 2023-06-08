@@ -27,7 +27,7 @@ Encapsulation is demonstrated in the `Project` class. It encapsulates the tasks 
 ## Usage 🚀
 
 1. Ensure you have Python installed.
-2. Clone the repository: `git clone https://github.com/izzy-dany/Task_Management_System.git`
+2. Clone the repository: `git clone https://github.com/izzy-dany/Task_Management_Application.git`
 3. Navigate to the project directory: `cd Task_Management_System`
 4. Run the program: `python Task_Management_System.py`
 5. Follow the on-screen instructions to register users, add tasks, and view tasks.
