@@ -98,4 +98,4 @@ While working on this project, several key lessons were learned:
 
 Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
 
-"<a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-business-communication-concept_20904386.htm">Image by pikisuperstar</a> on Freepik"
+<a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-business-communication-concept_20904386.htm">Image by pikisuperstar</a> on Freepik
