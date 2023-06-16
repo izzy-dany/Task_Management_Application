@@ -13,11 +13,26 @@ Task Manager is a Python program that allows users to register, add tasks, and v
 
 ## Classes 🧬
 
-- `Task`: Represents a generic task with properties like title, description, completion status, and assignee.
-- `Checklist` and `To-do`: Subclasses of `Task` that specialize the task types by adding additional properties (`rank` and `priority` respectively).
 - `User`: Represents a user with a name and a list of tasks assigned to them.
-- `Project`: Represents a project with a title, description, and a list of tasks.
-- `TaskManager`: Handles user registration, task addition, and task viewing functionalities.
+
+- `Task`
+Represents a generic task with properties like title, description, completion status, and assignee.
+
+- `Checklist`
+Subclass of Task that specializes the task type by adding an additional property, rank, and overriding the get_details method.
+
+- `To-do`
+Subclass of Task that specializes the task type by adding an additional property, priority, and overriding the get_details method.
+
+- `User`
+Represents a user with a name and a list of tasks assigned to them. It has methods to assign tasks and display assigned tasks.
+
+- `Project`
+Represents a project with a title, description, and a list of tasks. It encapsulates the tasks within the project object, providing methods to interact with the tasks. The tasks are not directly accessible from outside the class, promoting data integrity and encapsulation.
+
+- `TaskManager`
+The TaskManager class handles user registration, task addition, and task viewing functionalities. It maintains lists of users and projects and provides methods to interact with them.
+
 
 ## Polymorphism 🌟
 
@@ -26,52 +41,6 @@ Polymorphism is demonstrated in the `assign_task` method of the `User` class. It
 ## Encapsulation 🔒
 
 Encapsulation is demonstrated in the `Project` class. It encapsulates the tasks within the project object, providing methods (`add_task`, `show_progress`, `show_tasks`) to interact with the tasks. The tasks are not directly accessible from outside the class, promoting data integrity and encapsulation.
-
-
-`Task`
-Represents a generic task with properties like title, description, completion status, and assignee.
-`__init__(self, title, description)`: Initializes a new Task instance with the given title and description.
-`mark_as_completed(self)`: Marks the task as completed.
-`get_details(self)`: Abstract method that should be implemented by subclasses to provide specific details.
-`__str__(self)`: Returns a string representation of the task, including its title and completion status.
-
-`Checklist`
-Subclass of Task that specializes the task type by adding an additional property, rank, and overriding the get_details method.
-`__init__(self, title, description, rank)`: Initializes a new Checklist instance with the given title, description, and rank.
-`get_details(self)`: Overrides the base class method to include the rank in the task details.
-
-`To-do`
-Subclass of Task that specializes the task type by adding an additional property, priority, and overriding the get_details method.
-`__init__(self, title, description, priority)`: Initializes a new To-do instance with the given title, description, and priority.
-`get_details(self)`: Overrides the base class method to include the priority in the task details.
-
-`User`
-Represents a user with a name and a list of tasks assigned to them. It has methods to assign tasks and display assigned tasks.
-`__init__(self, name)`: Initializes a new User instance with the given name.
-`assign_task(self, task)`: Assigns a task to the user.
-`show_assigned_tasks(self)`: Displays the tasks assigned to the user.
-`__str__(self)`: Returns a string representation of the user, which is their name.
-
-`Project`
-Represents a project with a title, description, and a list of tasks. It encapsulates the tasks within the project object, providing methods to interact with the tasks. The tasks are not directly accessible from outside the class, promoting data integrity and encapsulation.
-`__init__(self, title, description)`: Initializes a new Project instance with the given title and description.
-`add_task(self, task)`: Adds a task to the project.
-`show_progress(self)`: Displays the project progress based on the completion status of the tasks.
-`show_tasks(self)`: Displays the tasks in the project.
-`__str__(self)`: Returns a string representation of the project, which is its title.
-
-`TaskManager`
-The TaskManager class handles user registration, task addition, and task viewing functionalities. It maintains lists of users and projects and provides methods to interact with them.
-`__init__(self)`: Initializes a new TaskManager instance with empty lists for users and projects.
-`register_user(self)`: Registers a new user by creating a new User instance and adding it to the user list.
-`add_task(self)`: Adds a new task by getting the task details from the user and creating the corresponding task object. It assigns the task to the specified user and adds it to the project.
-`view_all(self)`: Displays all tasks in the projects.
-`view_mine(self, username)`: Displays the tasks assigned to the specified user.
-`mark_task_complete(self, username, task_name)`: Marks the specified task as completed for the specified user.
-`get_user_by_username(self, username)`: Retrieves a user object based on the username.
-`get_project_by_title(self, title)`: Retrieves a project object based on the title.
-`run(self)`: Runs the main interface of the Task Manager, displaying options to the user and handling user input.
-
 
 ## Usage 🚀
 
