@@ -1,9 +1,9 @@
 <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-business-communication-concept_52683-78091.jpg?t=st=1686220171~exp=1686220771~hmac=a80dd3e28989606bcd7b01a4178665b32f5ae0f47a73714dbeaaa19670c5ffa6"  width="whatever" height="whatever">
 
 
-# Task Manager 📋
+# Task Management System 📋
 
-Task Manager is a Python program that allows users to register, add tasks, and view tasks. It incorporates polymorphism and encapsulation principles to provide flexibility and maintain data integrity.
+Task Management System is a Python program that allows users to register, add tasks, and view tasks. It incorporates polymorphism and encapsulation principles to provide flexibility and maintain data integrity.
 
 ## Features ✨
 

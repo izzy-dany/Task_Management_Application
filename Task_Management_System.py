@@ -20,8 +20,7 @@ class Task: # Represents a generic task with properties like title, description,
 #----------------------- Different task types --------------------------
 
 """
-Checklist and To-do: Subclasses of Task that specialize the task types by adding 
-additional properties (rank and priority respectively) 
+Checklist and To-do: Subclasses of Task that specialize the task types by adding additional properties (rank and priority respectively) 
 and overriding the `get_details` method to include the specific details.
 """
 class Checklist(Task): # type of task
