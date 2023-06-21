@@ -13,22 +13,22 @@ Task Management System is a Python program that allows users to register, add ta
 
 ## Classes 🧬
 
-- `User`: Represents a user with a name and a list of tasks assigned to them.
+- `User`: Represents a user with a name and a list of tasks assigned to them.<br>
 
 - `Task`
-Represents a generic task with properties like title, description, completion status, and assignee.
+Represents a generic task with properties like title, description, completion status, and assignee.<br>
 
 - `Checklist`
-Subclass of Task that specializes the task type by adding an additional property, rank, and overriding the get_details method.
+Subclass of Task that specializes the task type by adding an additional property, rank, and overriding the get_details method.<br>
 
 - `To-do`
-Subclass of Task that specializes the task type by adding an additional property, priority, and overriding the get_details method.
+Subclass of Task that specializes the task type by adding an additional property, priority, and overriding the get_details method.<br>
 
 - `User`
-Represents a user with a name and a list of tasks assigned to them. It has methods to assign tasks and display assigned tasks.
+Represents a user with a name and a list of tasks assigned to them. It has methods to assign tasks and display assigned tasks.<br>
 
 - `Project`
-Represents a project with a title, description, and a list of tasks. It encapsulates the tasks within the project object, providing methods to interact with the tasks. The tasks are not directly accessible from outside the class, promoting data integrity and encapsulation.
+Represents a project with a title, description, and a list of tasks. It encapsulates the tasks within the project object, providing methods to interact with the tasks. The tasks are not directly accessible from outside the class, promoting data integrity and encapsulation.<br>
 
 - `TaskManager`
 The TaskManager class handles user registration, task addition, and task viewing functionalities. It maintains lists of users and projects and provides methods to interact with them.
@@ -51,15 +51,15 @@ Encapsulation is demonstrated in the `Project` class. It encapsulates the tasks 
 5. Follow the on-screen instructions to register users, add tasks, and view tasks.
 
 ## LESSONS LEARNED 💡
-While working on this project, several key lessons were learned:
+While working on this project, several key lessons were learned:<br>
 
-- <b>Polymorphism</b>: Polymorphism allows for flexibility in handling different types of tasks by treating them as instances of the base Task class. It enables assigning various task types (Checklist, To-do) to users without the need for separate handling code.
+- <b>Polymorphism</b>: Polymorphism allows for flexibility in handling different types of tasks by treating them as instances of the base Task class. It enables assigning various task types (Checklist, To-do) to users without the need for separate handling code.<br>
 
-- <b>Encapsulation</b>: Encapsulation promotes data integrity and better code organization. The Project class encapsulates tasks, allowing controlled access and providing dedicated methods for task addition, progress tracking, and display. It helps maintain the integrity and consistency of project data.
+- <b>Encapsulation</b>: Encapsulation promotes data integrity and better code organization. The Project class encapsulates tasks, allowing controlled access and providing dedicated methods for task addition, progress tracking, and display. It helps maintain the integrity and consistency of project data.<br>
 
-- <b>Inheritance</b>: Inheritance allows for creating specialized task types (Checklist, To-do) based on the generic Task class. Subclasses inherit common properties and methods from the base class while adding additional functionality specific to their task type.
+- <b>Inheritance</b>: Inheritance allows for creating specialized task types (Checklist, To-do) based on the generic Task class. Subclasses inherit common properties and methods from the base class while adding additional functionality specific to their task type.<br>
 
-- <b>Error Handling</b>: Proper error handling and input validation are crucial for maintaining program stability and preventing unexpected behaviors. Validating user input, checking for existing objects, and handling exceptions ensure smooth program execution and provide meaningful feedback to the user.
+- <b>Error Handling</b>: Proper error handling and input validation are crucial for maintaining program stability and preventing unexpected behaviors. Validating user input, checking for existing objects, and handling exceptions ensure smooth program execution and provide meaningful feedback to the user.<br>
 
 - <b>Documentation and Readability</b>: Clear documentation, meaningful variable and method names, and proper code organization greatly enhance code readability and maintainability. Adding comments, docstrings, and structuring the code into logical sections help other developers (and future self) understand the codebase more effectively.
 
